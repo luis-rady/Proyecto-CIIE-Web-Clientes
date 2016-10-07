@@ -1,5 +1,5 @@
 # Proyecto-CIIE-Web-Clientes-
-Equipo de Leslie Ibarra
+Equipo de 
 
 Integrantes:
 Luis Rady
