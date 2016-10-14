@@ -32,12 +32,14 @@ input[type=text]:focus { background-color: lightyellow; }
 
 $name = $email = $gender = $comment = $website = "";
 
-if ($_SERVER["REQUEST_METHOD"] == "post") {
+if ($_SERVER["REQUEST_METHOD"] == "post") 
+{
   $user = test_input($_POST["user"]);
   $password = test_input($_POST["password"]);
 }
 
-function test_input($data) {
+function test_input($data) 
+{
   $data = trim($data);
   $data = stripslashes($data);
   $data = htmlspecialchars($data);
