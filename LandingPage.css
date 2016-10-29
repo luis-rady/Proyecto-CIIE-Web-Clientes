@@ -1,50 +1,11 @@
-body {
-	font-family: Helvetica neue;
-	background-color: #e6e6e6;
-}
-.header {
-    height: 72px;
-    width: 1024px;
-    background-color: powderblue;
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Helvetica neue", sans-serif;
 }
 
-.header input[type=text] {
-  position: absolute;;
-  left: 580px;
-  top: 10px;
-  float: left;
-  width: 130px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: white;
-  background-image: url('searchicon.png');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
+.w3-navbar,h1,a,button {
+  font-family: "Montserrat", sans-serif;
 }
 
-.header input[type=text]:focus {
-    width: 25%;
-}
-
-.sidebar {
-  height: 300px;
-  width: 250px;
-  background-color: powderblue;
-  margin: 39px;
-}
-
-.content {
-  height: 580px;
-  width: 800px;
-  background-color: powderblue;
-  position: absolute;
-  float: right;
-  right: 100px;
-  top: 125px;
-  overflow-y: scroll;
+.fa-anchor,.fa-coffee {
+  font-size:200px;
 }
