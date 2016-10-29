@@ -1,0 +1,32 @@
+body,h1,h2,h3,h4,h5,h6,p,a,td {
+  font-family: "Helvetica neue", sans-serif
+}
+
+.w3-navbar,h1,a,button {
+  font-family: "Montserrat", sans-serif
+}
+
+.fa-anchor,.fa-coffee {
+  font-size:200px
+}
+
+#add-info {
+  text-decoration: none
+}
+
+#add-info:hover {
+  text-decoration: underline
+}
+
+#event-container {
+  overflow: scroll; max-height: 50%
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
