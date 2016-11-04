@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" href="EventPage.css">
 </head>
-
+<!--Header-->
 <body>
   <div class="w3-container w3-blue w3-padding-32 w3-center w3-text-white w3-jumbo">
     <h1>Event Name</h1>
@@ -14,7 +14,7 @@
       <a href="Home.php" class="w3-btn w3-padding-8 w3-medium w3-margin-top w3-hover-amber">Back to Home</a>
     </div>
   </div>
-
+  <!--Conferencistas section -->
   <div class="w3-row w3-padding-32">
     <div class="w3-container w3-quarter w3-margin-left w3-center w3-padding-16">
       <div class="w3-container w3-light-grey w3-padding-8 w3-card-16 w3-border">
@@ -22,13 +22,13 @@
         <div class="tooltip w3-padding-8"><img src="imagenes/avatar.png" alt="Avatar" style="width: 50%">
           <span class="tooltipimage">Name <br> Empresa <br> Pais</span>
         </div>
-
+        <!--Information of Conferencistas-->
         <div class="tooltip w3-padding-8"><img src="imagenes/avatar_mujer.png" alt="AvatarM" style="width: 50%">
           <span class="tooltipimage">Name <br> Empresa <br> Pais</span>
         </div>
       </div>
     </div>
-
+    <!--Infromation of Event-->
     <div class="w3-container w3-twothird w3-margin-left w3-padding-16">
       <div class="w3-container w3-dark-grey w3-padding-8 w3-card-16">
         <div class="w3-container w3-light-grey w3-padding-8">
@@ -36,6 +36,7 @@
           <h5>Horario</h5>
           <h6>Fecha</h6>
           <h6>Lugar</h6><br>
+          <!--Modal of adding to a group-->
           <button onclick="document.getElementById('IrGrupo').style.display='block'" class="w3-btn w3-hover-amber w3-medium w3-padding-top">Ir a grupo</button>
           <div id="IrGrupo" class="w3-modal">
             <div class="w3-modal-content w3-card-4">
@@ -48,12 +49,12 @@
             </div>
           </div>
         </div> <br>
+        <!--Event Description-->
         <div id="descripcion" class="w3-container w3-light-grey w3-padding-8">
           <h3>Descripcion del Evento</h3>
         </div>
       </div>
     </div>
   </div>
-
 </body>
 </html>
