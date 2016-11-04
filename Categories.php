@@ -1,3 +1,13 @@
+<?php
+      //incluir este archivo para que se puedan utilizar las funciones de Webservices.php
+      include_once('Webservices.php');
+
+      //se llama a la funcion traer salones
+      $salones = traerSalones();
+      //echo print_r($salones);
+?>
+
+
 <html>
 <title>Categories</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +18,16 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="styles.css">
+
+<script type="text/javascript">
+//se consulta la variable salones y se guarda enuna variable de javascript
+var salones = <?php echo json_encode($salones) ?>;
+
+//se imprime en consola el resultado
+console.log(salones);
+
+</script>
+
 <body>
 
 <!--Header-->
