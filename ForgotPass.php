@@ -21,7 +21,7 @@
          <br><br>
          <a href="Login.php" class="w3-btn w3-hover-deep-purple w3-medium w3-padding-8">Back to Login</a>
 
-
+        <!--Modal with message-->
          <div id="id01" class="w3-modal">
            <div class="w3-modal-content w3-card-4">
              <header class="w3-container w3-teal">
@@ -38,20 +38,3 @@
   </div>
 </body>
 </html>
-
-<!--
-<div class="header">
-<a href=""><img src="https://scontent-dft4-1.xx.fbcdn.net/v/t34.0-12/14657689_1284081328281370_1603812898_n.jpg?oh=9bce28fbc73fdabd44009c2796ffa7c7&oe=5812B727"></a>
-      <div class="loginmodal-container">
-        <h1>Forgot Password</h1><br>
-        <form action="" method="post">
-        <input type="text" name="user" placeholder="Email">
-        <input type="submit" name="login" class="loginmodal-submit" value="Send">
-        </form>
-
-        <div class="login-help">
-        <a href="Login.php">Back to Login</a>
-        </div>
-      </div>
-</div>
--->
