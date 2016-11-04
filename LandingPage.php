@@ -9,28 +9,27 @@
 <link rel="stylesheet" href="LandingPage.css">
 <body>
 
-<!-- Navbar -->
-<div class="w3-top">
-  <ul class="w3-navbar w3-red w3-card-2 w3-left-align w3-large">
-    <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
-      <a class="w3-padding-large w3-hover-white w3-large w3-red"></a>
+<!-- Navbar-->
+<div class='w3-top'>
+  <ul class='w3-navbar w3-red w3-card-2 w3-left-align w3-large'>
+    <li class='w3-hide-medium w3-hide-large w3-opennav w3-right'>
+      <a class='w3-padding-large w3-hover-white w3-large w3-red'></a>
     </li>
-    <li><a href="#" class="w3-padding-large w3-white">Home</a></li>
+    <li><a href='#' class='w3-padding-large w3-white'>Landing Page</a></li>
   </ul>
 
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
-    <ul class="w3-navbar w3-left-align w3-large w3-black">
-      <li><a class="w3-padding-large page-scroll" href="#">Home</a></li>
+<!--Navbar on small screens-->
+  <div id='navDemo' class='w3-hide w3-hide-large w3-hide-medium'>
+      <li><a class='w3-padding-large page-scroll' href='#'>Landing Page</a></li>
     </ul>
   </div>
 </div>
 
 <!-- Header -->
-<header class="w3-container w3-red w3-center w3-padding-128">
-  <h1 class="w3-margin w3-jumbo">3ER. Congreso Internacional de Innovación Educativa</h1>
-  <p class="w3-xlarge">Coming Soon</p>
-  <a href="Login.php" class="w3-btn w3-padding-16 w3-large w3-margin-top w3-hover-blue">Login to your account</a>
+<header class='w3-container w3-red w3-center w3-padding-128'>
+  <h1 class='w3-margin w3-jumbo'>3ER. Congreso Internacional de Innovación Educativa</h1>
+  <p class='w3-xlarge'>Coming Soon</p>
+  <a href='Login.php' class='w3-btn w3-padding-16 w3-large w3-margin-top w3-hover-blue'>Login to your account</a>
 </header>
 
 <!-- First Grid -->
@@ -69,19 +68,21 @@
   </div>
 </div>
 
+<!--Google Map-->
 <section>
 	<div class="map">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.6147681452776!2d-100.29181838507837!3d25.650908083687224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662bfb8e720417b%3A0x3ad704d67f71158d!2sLearning+Commons!5e0!3m2!1sen!2smx!4v1471917762883" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</div>
 </section>
 
+<!--Quote-->
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge">Quote del congreso</h1>
+    <i class="w3-margin w3-xlarge">Quote del congreso</i>
 </div>
 
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+<footer class="w3-container w3-padding-8 w3-center w3-opacity">
   <div class="w3-xlarge w3-padding-32">
    <a href="#" class="w3-hover-text-indigo w3-padding-right"><i class="fa fa-facebook-official"></i></a>
    <a href="#" class="w3-hover-text-light-blue w3-padding-right"><i class="fa fa-twitter"></i></a>
